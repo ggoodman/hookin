@@ -34,3 +34,8 @@ hookin(test)
 test.name = "Madonna" # No good; cancelled by the before:change event
 test.failSecurity()
 ```
+
+Output:
+```
+PASSWORD FOR Geoff Goodman IS 7c28ece7bf8aa43735f94601ea6dbc50 OKTHX
+```
