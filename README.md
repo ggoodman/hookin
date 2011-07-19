@@ -12,11 +12,11 @@ crypto = require 'crypto'
 hookin = require './hookin'
 
 test = 
-  name: 'Geoffrey Goodman'
+  name: 'Geoff Goodman'
   site: 'http://github.com/ggoodman/'
   password: "Its a secret"
   failSecurity: ->
-    console.log "MY PASWWROD IS #{@password} OKTHX"
+    console.log "PASSWORD FOR #{@name} IS #{@password} OKTHX"
 
 hookin(test)
   # Prevent the mis-use of one-name wonders.
